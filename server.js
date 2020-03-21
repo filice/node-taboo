@@ -24,7 +24,7 @@ const deck_it = [
    [ "audience", "televisione", "ascolti", "Auditel", "share", "spettatori" ],
    [ "aumentare", "crescere", "tasse", "incrementare", "maggiore", "quantità" ],
    [ "australiano", "continente", "abitante", "Canguro", "isola", "Sidney" ],
-   [ "calcio", "partita", "palla", "finale", "mondiali", "squadra" ]
+   [ "calcio", "partita", "palla", "finale", "mondiali", "squadra" ],
    [ "cristallo", "vetro", "bicchieri", "gemma", "quarzo", "diamante" ],
    [ "divano", "salotto", "poltrona", "letto", "cuscino", "pisolino" ],
    [ "fiore", "petalo", "profumo", "farfalla", "pianta", "colorato" ],
@@ -115,7 +115,7 @@ var Match = function ( ) {
       // Choose the player
       do {
          this.curTeam = 1 - this.curTeam;
-      } while ( teams[this.curTeam].length == 0 );
+      } while ( teams[this.curTeam].length === 0 );
 
       this.turnTeamPlayer[this.curTeam]++;
       if ( this.turnTeamPlayer[this.curTeam] >= teams[this.curTeam].length )
