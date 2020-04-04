@@ -118,7 +118,6 @@ const deck_it = [
     ["Cachi","Marrone","Militare","Polizia","Colore","Uniforme"],
     ["Cosmopolita","Culture","Diverse","Città","Viaggiatore","Varietà"],
     ["Bandana","Fasciapercapelli","Fazzolettodatesta","Fasciaperilsudore","Collo","Fantastico"],
-    ["Bun","Hairstyle","Circular","Round","Head","Back"],
     ["Funzionale","Utile","Scopo","Ruolo","Pratico","Specificamente"],    
     ["Parigi","Moda","Settimana","Città","Francia","Eiffel"],
     ["Stivali","Militare","Scarpa","Caviglia","Nero","Esercito"],
